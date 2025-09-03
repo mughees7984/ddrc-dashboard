@@ -54,6 +54,9 @@ const Navbar = () => {
             <button className="bg-yellow-500 text-black px-4 py-2 rounded-lg font-semibold hover:bg-yellow-400 transition-colors">
               Add to Wallet
             </button>
+            <button  onClick={() => navigate("/vesting-dashboard")} className="bg-yellow-500 text-black px-4 py-2 rounded-lg font-semibold hover:bg-yellow-400 transition-colors">
+              Vesting
+            </button>
             <button
               onClick={() => navigate("/vesting")}
               className="bg-yellow-500 text-black px-4 py-2 rounded-lg font-semibold hover:bg-yellow-400 transition-colors"
