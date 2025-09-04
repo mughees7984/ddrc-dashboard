@@ -264,7 +264,7 @@ export default function Dashboard() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Side - Dashboard */}
-          <div className="space-y-6 sm:space-y-8 order-2 lg:order-1">
+          <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
             {/* Hero Section */}
             <div className="text-center lg:text-left">
               <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
